@@ -1,0 +1,30 @@
+{
+  "name": "cte_204_p2_02240167",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RigphelTandinWangchuk/CTE_204_P2_02240167.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RigphelTandinWangchuk/CTE_204_P2_02240167/issues"
+  },
+  "homepage": "https://github.com/RigphelTandinWangchuk/CTE_204_P2_02240167#readme",
+  "dependencies": {
+    "better-sqlite3": "^12.10.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
