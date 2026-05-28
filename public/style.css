@@ -345,7 +345,7 @@
     font-size: 0.95rem;
   }
   
-  /* List element — remove default list styling */
+  /* List element */
   .assignment-list {
     list-style: none;
     display: flex;

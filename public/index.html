@@ -8,7 +8,6 @@
 </head>
 <body>
 
-  <!-- HEADER -->
   <header class="site-header">
     <div class="header-inner">
       <div class="logo">
@@ -21,7 +20,6 @@
 
   <main class="main-layout">
 
-    <!-- ADD ASSIGNMENT FORM -->
     <section class="form-section" aria-labelledby="form-heading">
       <h2 id="form-heading" class="section-title">Add Assignment</h2>
 
@@ -84,7 +82,6 @@
       </form>
     </section>
 
-    <!-- WORKLOAD SUMMARY -->
     <section class="summary-section" aria-label="Workload summary">
       <div class="summary-card summary-pending">
         <span class="summary-count" id="count-pending">0</span>
@@ -100,27 +97,24 @@
       </div>
     </section>
 
-    <!-- ASSIGNMENT LIST -->
     <section class="list-section" aria-labelledby="list-heading">
       <div class="list-header">
         <h2 id="list-heading" class="section-title">Your Assignments</h2>
         <span class="sort-label">Sorted by due date</span>
       </div>
 
-      <!-- Empty state shown when no assignments exist -->
       <div class="empty-state" id="empty-state">
         <span class="empty-icon">🗂️</span>
         <p>No assignments yet. Add one above to get started.</p>
       </div>
 
-      <!-- Assignment cards are rendered here by JavaScript -->
       <ul class="assignment-list" id="assignment-list" aria-label="Assignment list"></ul>
     </section>
 
   </main>
 
   <footer class="site-footer">
-    <p>StudyDesk · CTE204 Project I · Data is stored in memory only and resets on page reload.</p>
+    <p>StudyDesk · CTE204 Project I · Data is stored in SQLite Database engine.</p>
   </footer>
 
   <script src="app.js"></script>
